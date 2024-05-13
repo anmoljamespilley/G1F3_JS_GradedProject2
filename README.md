@@ -26,7 +26,7 @@ Here are some screenshots of our project:
 - Clone the repository:
    ```bash
    git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git
-- Or download the Zip file
+- Or download the Zip file.
    
 ## Usage:
 1. Open `login.html` or `resume-page.html` in a web browser.
