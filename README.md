@@ -18,12 +18,12 @@ This project aims to provide a user-friendly interface for viewing applicant det
 ## Screenshots
 Here are some screenshots of our project:
 
-![Login Page](https://github.com/anmoljamespilley/G1F3_JS_GradedProject2/blob/main/Screenshots/Login.JPG))
+![Login Page](https://github.com/anmoljamespilley/G1F3_JS_GradedProject2/blob/main/Screenshots/Login.JPG)
 
 ![Resume Viewer](https://github.com/anmoljamespilley/G1F3_JS_GradedProject2/blob/main/Screenshots/Resume%20Viewer.JPG)
 
 ## Installation:
-1. Clone the repository:
+**Clone the repository:**
    ```bash
    git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git
    
