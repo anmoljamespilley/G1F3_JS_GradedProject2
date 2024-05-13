@@ -11,7 +11,7 @@ This project aims to provide a user-friendly interface for viewing applicant det
 - **Dynamic UI:** The UI adapts based on the number of applications for a specific job opening, hiding navigation buttons when necessary.
 
 ## Technologies Used:
-- **HTML**: Structure of the web page.
+- **HTML**: Structure of the web pages.
 - **CSS**: Styling and layout of the app.
 - **JavaScript**: Handling user interactions and fetching data.
 
