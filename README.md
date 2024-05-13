@@ -28,7 +28,7 @@ Here are some screenshots of our project:
    git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git
    
 ## Usage:
-1. Open `login.html` or 'resume-page.html' in a web browser.
+1. Open `login.html` or `resume-page.html` in a web browser.
 2. Enter your username and password to log in. (Note: username: 'admin' and password: 'admin' is set by default, feel free to change it from `login.html`)
 3. Navigate through applicant resumes using the Next and Previous buttons.
 4. Use the search feature to filter applicants based on job openings.
