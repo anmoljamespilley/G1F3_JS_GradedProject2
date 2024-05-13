@@ -23,7 +23,7 @@ Here are some screenshots of our project:
 ![Resume Viewer](https://github.com/anmoljamespilley/G1F3_JS_GradedProject2/blob/main/Screenshots/Resume%20Viewer.JPG)
 
 ## Installation:
-**Clone the repository:**
+**Clone the repository**:
    ```bash
    git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git
    
