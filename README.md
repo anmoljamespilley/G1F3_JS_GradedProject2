@@ -25,7 +25,8 @@ Here are some screenshots of our project:
 ## Installation:
 - Clone the repository:
    ```bash
-   git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git<br>
+   git clone https://github.com/anmoljamespilley/G1F3_JS_GradedProject2.git
+<br>
    Or download the Zip file
    
 ## Usage:
