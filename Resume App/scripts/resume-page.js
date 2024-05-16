@@ -75,6 +75,10 @@ const fillData = () => {
 };
 
 const validateUser = () => {
+    const isLoggedIn = window.localStorage.getItem("isLoggedIn");
+    if (!isLoggedIn) {
+        window.location.href = "./login.html";
+    }
     const username = window.localStorage.getItem("username");
     const password = window.localStorage.getItem("password");
     if (!username || !password) {
@@ -91,8 +95,6 @@ const checkResumes = () => {
         resumeContainer.style.display = "none";
     }
 };
-
-validateUser();
 
 fetch("../resources/data/Data.json")
     .then((response) => response.json())
@@ -142,4 +144,4 @@ const previousBtnClick = () => {
     checkButtonsToDisplay();
 };
 
-checkButtonsToDisplay();
+validateUser();
