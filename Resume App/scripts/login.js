@@ -1,5 +1,3 @@
-// login.js
-
 document.addEventListener('DOMContentLoaded', function() {
     const loginForm = document.getElementById('loginForm');
     const errorElement = document.getElementById('error');
@@ -9,9 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
         { username: 'admin', password: 'admin' },
         { username: 'anmol', password: 'admin' }
     ];
-
-    // Save users to local storage
-    localStorage.setItem('users', JSON.stringify(users));
 
     loginForm.addEventListener('submit', function(event) {
         event.preventDefault();
@@ -26,6 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(function() {
             const authenticatedUser = storedUsers.find(user => user.username === username && user.password === password);
             if (authenticatedUser) {
+                // Set the isLoggedIn flag upon successful login
+                localStorage.setItem('isLoggedIn', true.toString());
                 // Redirect to Resume Page upon successful login
                 window.location.href = 'resume-page.html';
             } else {
